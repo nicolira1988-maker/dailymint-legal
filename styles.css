@@ -40,6 +40,20 @@ a {
 }
 
 .hero,
+.panel {
+  text-align: center;
+}
+
+.hero .lead {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.actions {
+  justify-content: center;
+}
+
+.hero,
 .panel,
 .document,
 .contact-card {
@@ -96,13 +110,6 @@ li {
 .lead {
   max-width: 620px;
   font-size: 1.1rem;
-}
-
-.actions {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 12px;
-  margin-top: 28px;
 }
 
 .button {
